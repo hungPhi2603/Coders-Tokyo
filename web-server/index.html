@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hung</title>
+</head>
+<body>
+	<div style="color: red">Hung Phi</div>
+	<ul id="sport">
+		<li class="1">Football</li>
+		<li class="1">Tennis</li>
+		<li class="2">Ping pong</li>
+		<li class="2">Basket ball</li>
+	</ul>
+	<p id="count"></p>
+	<button id= "plus-button" onclick= 'plusOne()'>Plus</button>
+	<br>
+
+	<input type="text" id="searchBox" placeholder="Search..." />
+	<button>Search</button>
+	<button onclick= 'clearInp()'>Clear</button>
+	<button onclick= 'sayHi()'>Hi</button>
+
+	<br><br>
+	
+	<form id="loginForm">
+	  <div>
+	    <label>Username</label>
+	    <input type="text" name="username"/>  
+	  </div>
+	  <div>
+	    <label>Password</label>
+	    <input type="password" name="password"/>  
+	  </div>
+	  
+	  <div>
+	    <button type="submit">Submit</button>
+	    <button id="clearButton" type="button">Clear</button>
+	  </div>
+	</form>
+
+	<br><br>
+
+	<input type="text" id="searchInput" placeholder="Search by phone number..." />
+	<input type="text" id="addInput" placeholder="Add new contact..." />
+	<button id="add-btn" type="button">Add</button>
+	<ul id="userList">
+
+	</ul>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
