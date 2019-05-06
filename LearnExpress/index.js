@@ -6,6 +6,9 @@ const app = express()
 const port = 3000
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser')
+var mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGO_URL);
 
 var userRoute = require('./route/user.route')
 var authRoute = require('./route/auth.route')
